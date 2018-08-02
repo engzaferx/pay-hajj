@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainPage">
+
+    <ImageView
+        android:id="@+id/payHjjLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:scaleType="centerCrop"
+        android:paddingRight="110dp"
+        android:paddingLeft="110dp"
+        android:paddingTop="90dp"
+        android:adjustViewBounds="true"/>
+
+
+    <Button
+        android:id="@+id/signup_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textAllCaps="false"
+        android:layout_below="@+id/payHjjLogo"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginBottom="30dp"
+        android:textSize="16sp"
+        android:padding="12dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="already have an account?"
+        android:textSize="16dp"
+        android:layout_below="@+id/signup_button"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log In"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:layout_below="@+id/signup_button"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginBottom="30dp"/>
+
+
+</RelativeLayout>

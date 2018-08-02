@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/myBalance_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Balance:"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0.0"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="8dp"
+        android:textSize="24sp"
+        android:layout_toRightOf="@id/myBalance_text"/>
+
+    <LinearLayout
+        android:id="@+id/point_to_be_tranfer"
+        android:layout_marginTop="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/myBalance_text"
+        android:orientation="horizontal"
+        android:layout_centerVertical="true">
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/points_transfered"
+        android:layout_weight="1"
+        android:hint="points to be transfered"
+        android:layout_marginTop="34dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/hajj_username"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/point_to_be_tranfer"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/points_transfered"
+            android:layout_weight="1"
+            android:hint="Hajj username"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"/>
+
+</LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Transfer"
+        android:layout_marginTop="12dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/hajj_username"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"/>
+</RelativeLayout>
