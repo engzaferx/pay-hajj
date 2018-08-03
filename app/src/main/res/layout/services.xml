@@ -31,6 +31,7 @@
             android:layout_height="150dp"
             android:src="@drawable/trash"
             android:scaleType="center"
+            android:background="@drawable/square"
             android:layout_marginRight="5dp"
             android:padding="24dp"/>
 
@@ -45,6 +46,8 @@
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:src="@drawable/lost"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/square"
             android:scaleType="center"
             android:padding="30dp"/>
 
@@ -65,7 +68,8 @@
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:src="@drawable/help"
-                android:layout_marginRight="5dp"
+                android:background="@drawable/square"
+                android:layout_marginRight="8dp"
                 android:scaleType="center"
                 android:padding="30dp"/>
             <TextView
@@ -79,8 +83,10 @@
                 android:id="@+id/children_button"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
-                android:src="@drawable/babies"
-                android:scaleType="centerCrop"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/square"
+                android:src="@drawable/children"
+                android:scaleType="center"
                 android:padding="30dp"/>
 
             <TextView

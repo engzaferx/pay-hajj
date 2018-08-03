@@ -8,16 +8,17 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 
 public class Exchange extends Fragment implements View.OnClickListener {
 
-    ImageButton coponsButton;
+    ImageView coponsButton;
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View root = inflater.inflate(R.layout.exchange, container, false);
 
-        coponsButton = (ImageButton)root.findViewById(R.id.copons);
+        coponsButton = (ImageView)root.findViewById(R.id.copons);
         coponsButton.setOnClickListener(this);
         return root;
     }

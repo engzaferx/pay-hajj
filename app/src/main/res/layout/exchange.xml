@@ -9,13 +9,14 @@
     android:layout_centerVertical="true"
     android:layout_centerHorizontal="true">
 
-    <ImageButton
+    <ImageView
         android:id="@+id/copons"
         android:layout_centerHorizontal="true"
-        android:layout_width="150dp"
+        android:layout_width="160dp"
         android:layout_height="150dp"
         android:layout_centerVertical="true"
-        android:src="@drawable/ic_action_copons"/>
+        android:scaleType="centerCrop"
+        android:src="@drawable/hajjpay_copons"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -23,18 +24,6 @@
         android:text="Coupons"
         android:layout_gravity="center"/>
 
-    <ImageButton
-        android:id="@+id/visa"
-        android:layout_centerHorizontal="true"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_below="@+id/copons"
-        android:src="@drawable/ic_action_visa"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Visa"
-        android:layout_gravity="center"/>
 </LinearLayout>
 </RelativeLayout>

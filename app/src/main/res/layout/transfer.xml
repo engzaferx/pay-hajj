@@ -14,11 +14,11 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="0.0"
-        android:layout_marginTop="16dp"
         android:layout_marginLeft="8dp"
-        android:textSize="24sp"
-        android:layout_toRightOf="@id/myBalance_text"/>
+        android:layout_marginTop="16dp"
+        android:layout_toRightOf="@id/myBalance_text"
+        android:text="356.56"
+        android:textSize="24sp" />
 
     <LinearLayout
         android:id="@+id/point_to_be_tranfer"

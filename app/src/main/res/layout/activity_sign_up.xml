@@ -13,7 +13,8 @@
         android:textStyle="bold"
         android:layout_above="@id/linearlayout_signup"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="28dp"
+        android:layout_marginBottom="20dp"
+
         android:textSize="28sp"/>
 
     <LinearLayout
@@ -24,7 +25,7 @@
         android:layout_centerVertical="true">
 
         <EditText
-            android:id="@+id/editText"
+            android:id="@+id/editTextName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"
@@ -34,7 +35,7 @@
             android:hint="Name"/>
 
         <EditText
-            android:id="@+id/editText2"
+            android:id="@+id/editTextEmail"
             android:layout_marginLeft="30dp"
             android:layout_marginRight="30dp"
             android:layout_width="match_parent"
@@ -45,7 +46,18 @@
             android:inputType="textEmailAddress" />
 
         <EditText
-            android:id="@+id/editText3"
+            android:id="@+id/editTextUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="12dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Username"/>
+
+        <EditText
+            android:id="@+id/editTextPassword"
             android:layout_marginLeft="30dp"
             android:layout_marginRight="30dp"
             android:layout_width="match_parent"
@@ -56,7 +68,7 @@
             android:inputType="textPassword" />
 
         <EditText
-            android:id="@+id/editText4"
+            android:id="@+id/editTextPasswordConf"
             android:layout_marginLeft="30dp"
             android:layout_marginRight="30dp"
             android:layout_width="match_parent"
@@ -66,8 +78,18 @@
             android:hint="Confirm Password"
             android:inputType="textPassword" />
 
+        <Spinner
+            android:id="@+id/type_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="12dp">
+
+        </Spinner>
+
         <Button
-            android:id="@+id/button"
+            android:id="@+id/signUpButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"
